@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(146deg,#1f2228, #1d2026);
+}
+
+.header {
+    display: flex;
+    padding: 50px 450px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-style: none;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 70px;
+}
+
+.imagem {
+    max-width: 60%;
+}
+
+.texts {
+    display: inline;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 530px;
+}
+
+.text {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'IgraSans', Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 400;
+    margin: 15px 0;
+    gap: 40px;
+}
+
+.text1 {
+    color: #8A94A7;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.45;
+    font-weight: 400;
+    text-align: left;
+    margin:30px 0;
+}
+
+.btn{
+    display: inline-flex;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    background-color: #097dea;
+    color: #fff !important;
+    border: none;
+    border-radius: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+    justify-content: center;
+    padding: 16px 32px;
+    height: 48px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn1{
+    display: inline-flex;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    background-color: #242830;
+    color: #fff !important;
+    border: none;
+    border-radius: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+    justify-content: center;
+    padding: 16px 32px;
+    height: 48px;
+    text-align: center;
+    white-space: nowrap;
+}
