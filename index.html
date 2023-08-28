@@ -3,148 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto Digital</title>
-    <link rel="stylesheet" href="./projeto_dgt_clg/assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Grocify</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <main>
-      <header class="header">
-        <img
-          class="img"
-          src="https://preview.cruip.com/solid/dist/images/logo.svg"
-          alt=""
-        />
-      </header>
-      <section class="container">
-        <div class="texts">
-          <h1 class="text">Logo Landing template for startups</h1>
-          <p class="text1">
-            Our landing page template works on all devices, so you only have to
-            set it up once, and get beautiful results forever
-          </p>
-          <button class="btn">Pre order now</button>
-          <button class="btn1">Get in touch</button>
+    <div
+      class="container min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <img src="images/logo.png" class="w-40 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" class="w-8 cursor-pointer" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Groceries<br />delivery in <span class="font-light">15 mins</span>
+        </h1>
+        <p>
+          Grocify offer a wide range of products, including fresh products,
+          meats, dairy, baked goods and non-perishable items.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Order Now</a
+          >
+          <a href="#">Download app <span class="text-lg inline-block rotate-90">&#10148</span></a>
         </div>
-        <img
-          class="imagem"
-          src="./projeto_dgt_clg/assets/images/image.png"
-          alt=""
-        />
-      </section>
-      <section>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Produtividade</h4>
-                  <p>
-                    Alcance sua máxima produtividade com organização e foco.
-                    Estabeleça metas claras e prioridades bem definidas para
-                    otimizar seu tempo. Utilize técnicas de gerenciamento e
-                    ferramentas modernas para aumentar sua eficiência.
-                    Lembre-se: pequenos passos consistentes levam a grandes
-                    resultados. Seja disciplinado e mantenha o equilíbrio entre
-                    trabalho e descanso, garantindo uma performance excepcional
-                    em todas as áreas da sua vida
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Produtos</h4>
-                  <p>
-                    Descubra a qualidade que faz a diferença! Nossos produtos
-                    são cuidadosamente selecionados e desenvolvidos para atender
-                    às suas necessidades. Garantimos durabilidade,
-                    funcionalidade e design inovador. Encontre a solução
-                    perfeita para você, desde eletrônicos de última geração até
-                    itens do dia a dia. Estamos comprometidos em oferecer apenas
-                    o melhor aos nossos clientes, pois acreditamos que a
-                    satisfação deles é a nossa maior conquista
-                  </p>
-                </div>
-              </div> 
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Pré-venda</h4>
-                  <p>
-                    Seja o primeiro a ter em mãos o que há de mais novo no
-                    mercado! A pré-venda exclusiva do nosso lançamento está
-                    aberta agora. Ao garantir o seu pedido antecipadamente, você
-                    assegura a prioridade na entrega e ainda aproveita condições
-                    especiais. Não perca a chance de ser um dos primeiros a
-                    desfrutar dessa incrível novidade. Reserve o seu agora mesmo
-                    e aguarde ansiosamente por essa experiência única!
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Exclusividade</h4>
-                  <p>
-                    Você merece o melhor do melhor, e é por isso que oferecemos
-                    produtos exclusivos para clientes especiais como você. A
-                    nossa coleção premium é cuidadosamente elaborada, com
-                    materiais de alta qualidade e design incomparável. A
-                    sensação de possuir algo único é incomparável. Desfrute do
-                    luxo, da exclusividade e da excelência que só encontrará
-                    aqui. Seja parte de um seleto grupo que tem acesso ao
-                    extraordinário!
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Bônus Cliente Plus</h4>
-                  <p>
-                    Valorizamos cada cliente que escolheu caminhar conosco.
-                    Pensando nisso, apresentamos o nosso programa Cliente Plus,
-                    com benefícios exclusivos para retribuir sua lealdade. A
-                    cada compra, acumule pontos que podem ser trocados por
-                    descontos e brindes especiais. Além disso, você terá acesso
-                    antecipado a promoções e lançamentos. Seja um Cliente Plus e
-                    sinta-se ainda mais especial em nossa jornada juntos
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div>
-                  <img src="" alt="" />
-                  <h4>Contate-nos</h4>
-                  <p>
-                    Estamos aqui para ajudar! Se você tem alguma dúvida,
-                    sugestão ou precisa de suporte, nossa equipe de atendimento
-                    está pronta para te atender. Entre em contato conosco por
-                    telefone, e-mail ou chat ao vivo, e teremos o maior prazer
-                    em esclarecer suas questões. Sua opinião é muito importante
-                    para nós, pois é através dela que aprimoramos nossos
-                    produtos e serviços. Não hesite em contatar-nos, estamos ao
-                    seu dispor.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+      </div>
+      <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-2">
+
+    </div>
   </body>
 </html>
